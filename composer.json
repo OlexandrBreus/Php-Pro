@@ -1,0 +1,19 @@
+{
+    "name": "slim/php_pro",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "7.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Slim\\PhpPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleksandr Breus"
+        }
+    ],
+    "minimum-stability": "stable"
+}
