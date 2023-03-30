@@ -1,6 +1,6 @@
 <?php
 
-namespace Slim\PhpPro\shortener\exceptions;
+namespace Slim\PhpPro\Short\Exceptions;
 
 use Exception;
 

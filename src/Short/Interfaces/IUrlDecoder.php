@@ -1,12 +1,14 @@
 <?php
 
-namespace Slim\PhpPro\shortener\interfaces;
+namespace Slim\PhpPro\Short\Interfaces;
+
+use InvalidArgumentException;
 
 interface IUrlDecoder
 {
     /**
      * @param string $code
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      * @return string
      */
     public function decode(string $code): string;
