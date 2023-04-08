@@ -10,14 +10,14 @@ interface ICodeRepository
     public function getAllData(): array;
 
     /**
-     * @param string $code
+     * @param string $url
      * @throws DataNotFoundException
      * @return string
      */
     public function getCodeByUrl(string $url): string;
 
     /**
-     * @param string $url
+     * @param string $code
      * @throws DataNotFoundException
      * @return string
      */

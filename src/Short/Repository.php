@@ -11,7 +11,7 @@ class Repository implements ICodeRepository
 
     public function __construct(protected string $filePath)
     {
-
+        $this->getAllData();
     }
 
 
@@ -42,7 +42,7 @@ class Repository implements ICodeRepository
 
     public function checkCode(string $code): bool
     {
-        return isset($this->$code);
+        return isset($this->entity[$code]);
     }
 
     public function saveCodeAndUrl(string $code, string $url): bool

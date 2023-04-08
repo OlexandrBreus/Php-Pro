@@ -11,4 +11,6 @@ $decoder = new \Slim\PhpPro\Short\UrlDecoder($repository);
 $url = 'https://google.com';
 
 //$encoder->encode($url);
-echo $decoder->decode('1FBb69Dc');
+echo $decoder->decode('63bYxZW');
+
+echo PHP_EOL;
