@@ -50,4 +50,5 @@ class Repository implements ICodeRepository
         $this->entity[$code] = $url;
         return file_put_contents($this->filePath, json_encode($this->entity));
     }
+
 }

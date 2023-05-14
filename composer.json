@@ -3,7 +3,13 @@
     "type": "project",
     "require": {
         "guzzlehttp/guzzle": "7.*",
-        "monolog/monolog": "^3.3"
+        "monolog/monolog": "^3.3",
+        "psr/container": "*",
+        "illuminate/database": "v9.*",
+        "doctrine/orm": "*",
+        "ufo-cms/colored_cli": "^1.0",
+        "ext-pdo": "*"
+
     },
     "license": "MIT",
     "autoload": {
